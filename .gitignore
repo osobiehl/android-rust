@@ -1,0 +1,35 @@
+/target
+
+# Gradle files
+android/c_bindgen/.gradle/
+android/c_bindgen/build/
+
+# Local configuration file (sdk path, etc)
+landroid/c_bindgen/ocal.properties
+
+# Log/OS Files
+*.log
+
+# Android Studio generated files and folders
+android/c_bindgen/captures/
+android/c_bindgen/.externalNativeBuild/
+android/c_bindgen/.cxx/
+android/c_bindgen/*.apk
+output.json
+
+# IntelliJ
+android/c_bindgen/*.iml
+android/c_bindgen/.idea/
+android/c_bindgen/misc.xml
+android/c_bindgen/deploymentTargetDropDown.xml
+android/c_bindgen/render.experimental.xml
+
+# Keystore files
+android/c_bindgen/*.jks
+android/c_bindgen/*.keystore
+
+# Google Services (e.g. APIs or Firebase)
+android/c_bindgen/google-services.json
+
+# Android Profiling
+android/c_bindgen/*.hprof
