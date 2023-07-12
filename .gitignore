@@ -1,5 +1,8 @@
 /target
 
+#NDK files from android
+NDK
+
 # Gradle files
 android/c_bindgen/.gradle/
 android/c_bindgen/build/

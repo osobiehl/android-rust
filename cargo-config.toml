@@ -1,0 +1,17 @@
+[target.aarch64-linux-android]
+ar = "/home/osobiehl/Documents/android_rust/NDK/arm64/bin/aarch64-linux-android-ar"
+linker = "/home/osobiehl/Documents/android_rust/NDK/arm64/bin/aarch64-linux-android-clang"
+
+[target.armv7-linux-androideabi]
+ar = "/home/osobiehl/Documents/android_rust/NDK/arm/bin/arm-linux-androideabi-ar"
+linker = "/home/osobiehl/Documents/android_rust/NDK/arm/bin/arm-linux-androideabi-clang"
+
+[target.i686-linux-android]
+ar = "/home/osobiehl/Documents/android_rust/NDK/x86/bin/i686-linux-android-ar"
+linker = "/home/osobiehl/Documents/android_rust/NDK/x86/bin/i686-linux-android-clang"
+
+[target.x86_64-linux-android]
+ar = "/home/osobiehl/Documents/android_rust/NDK/x86/bin/x86_64-linux-android26-ar"
+linker = "/home/osobiehl/Documents/android_rust/NDK/x86/bin/x86_64-linux-android26-clang"
+
+
