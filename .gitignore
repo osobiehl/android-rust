@@ -36,3 +36,5 @@ android/c_bindgen/google-services.json
 
 # Android Profiling
 android/c_bindgen/*.hprof
+
+**/jniLibs/**
