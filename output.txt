@@ -1,0 +1,45 @@
+   Compiling mbedtls-sys-auto v3.5.0-alpha.3+0b3de6f
+   Compiling mbedtls-platform-support v0.3.0
+   Compiling mbedtls v0.11.0
+   Compiling rust v0.1.0 (/home/osobiehl/Documents/android_rust)
+warning: unused imports: `debug`, `error`, `info`, `trace`, `warn`
+ --> src/lib.rs:5:11
+  |
+5 | use log::{debug, trace, warn, error, info};
+  |           ^^^^^  ^^^^^  ^^^^  ^^^^^  ^^^^
+  |
+  = note: `#[warn(unused_imports)]` on by default
+
+warning: unused import: `tokio`
+ --> src/coap_server.rs:1:5
+  |
+1 | use tokio;
+  |     ^^^^^
+
+warning: unused import: `coap::message::Codec`
+ --> src/coap_server.rs:4:5
+  |
+4 | use coap::message::Codec;
+  |     ^^^^^^^^^^^^^^^^^^^^
+
+warning: unused imports: `debug`, `error`, `trace`, `warn`
+ --> src/coap_server.rs:5:11
+  |
+5 | use log::{debug, trace, warn, error, info};
+  |           ^^^^^  ^^^^^  ^^^^  ^^^^^
+
+warning: unused imports: `CoapRequest`, `RequestType as Method`
+ --> src/coap_client.rs:1:17
+  |
+1 | use coap_lite::{RequestType as Method, CoapRequest};
+  |                 ^^^^^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^
+
+warning: unused imports: `error`, `trace`, `warn`
+ --> src/coap_client.rs:3:18
+  |
+3 | use log::{debug, trace, warn, error, info};
+  |                  ^^^^^  ^^^^  ^^^^^
+
+warning: `rust` (lib) generated 6 warnings (run `cargo fix --lib -p rust` to apply 6 suggestions)
+    Finished release [optimized] target(s) in 8.62s
+cp: cannot stat 'target/i686-linux-android/release/librust.so': No such file or directory
